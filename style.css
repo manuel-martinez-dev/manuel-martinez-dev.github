@@ -311,5 +311,8 @@ body {
   .cursor { animation: none; }
   .dl-bar, .modal-overlay { display: none; }
   .phone-field, .email-field { display: block; }
+  .header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page-break { break-after: page; page-break-after: always; }
+  .page-break + .job { padding-top: 33px; }
   @page { margin: 0; }
 }
