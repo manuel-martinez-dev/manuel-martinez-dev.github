@@ -123,7 +123,9 @@ body {
   font-size: 12px;
   line-height: 1.75;
   max-width: 700px;
+  margin-bottom: 5px;
 }
+.profile-text:last-child { margin-bottom: 0; }
 
 .job { margin-bottom: 22px; }
 .job:last-child { margin-bottom: 0; }
@@ -137,10 +139,10 @@ body {
 }
 .job-title { font-weight: 600; font-size: 15px; }
 
-.job-period { font-size: 10.5px; color: var(--accent); font-weight: 500; white-space: nowrap; }
+.job-period { font-size: 10.5px; color: var(--muted); font-weight: 500; white-space: nowrap; }
 
 .job-company {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--accent-dim);
   margin-bottom: 8px;
   margin-top: 2px;
@@ -174,6 +176,7 @@ body {
   border-top: 1px dashed var(--border);
   margin: 18px 0;
 }
+.job-divider.page-break { margin: 28px 0; }
 
 .skills-grid {
   display: grid;
